@@ -874,6 +874,7 @@ static const char *snet_prop_key[] = {
     "ro.boot.verifiedbootstate",
     "ro.boot.flash.locked",
     "ro.boot.selinux",
+    "ro.boot.vbmeta.digest",
     "ro.boot.veritymode",
     "ro.boot.warranty_bit",
     "ro.warranty_bit",
@@ -902,6 +903,7 @@ static const char *snet_prop_value[] = {
     "green", // ro.boot.verifiedbootstate
     "1", // ro.boot.flash.locked
     "enforcing", // ro.boot.selinux
+    "07552fd95334eb9169805a0a82f9127a1d75d3afaad859074a3dd2f5d48615a1", // ro.boot.vbmeta.digest
     "enforcing", // ro.boot.veritymode
     "0", // ro.boot.warranty_bit
     "0", // ro.warranty_bit
